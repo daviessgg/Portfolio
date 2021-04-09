@@ -1,0 +1,10 @@
+div figure img{
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    background-color: black;
+    background-repeat: no-repeat;
+}

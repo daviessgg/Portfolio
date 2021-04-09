@@ -1,0 +1,27 @@
+div#comunidad{
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50%;
+}
+main{
+    background-size: contain;
+    padding: 20px;
+    background-color: black;
+    background-repeat: no-repeat;
+
+}
+div#comunidad p{
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px red;
+}
+div figure img{
+    width: 100%;
+}

@@ -1,0 +1,57 @@
+h1#graficas{
+    text-align: center;
+    color: red;
+}
+
+main{
+    padding: 25px;
+    background-color: black;
+}
+
+div#graficas{
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+main #graficas h3 {
+    background-color: white;
+}
+
+div#graficas div.grafica {
+    border-radius: 10px;
+    width: 36%;
+    background-color:white;
+    margin-bottom: 10px;
+    padding: 20px;   
+    transition: 2s all;
+}
+div#graficas div.grafica p.precio {
+    color: black;
+}
+div#graficas div.grafica p.tipo{
+    color:black;
+}
+div#graficas div.grafica div.config{
+    background-color: red;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: 5px 5px whitesmoke;
+    display: none;
+    transition: 1s all;
+}
+
+div#graficas div.grafica img{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    transition: 1s all;
+}
+
+div#graficas div.grafica:hover div.config{
+    display: block;
+
+}

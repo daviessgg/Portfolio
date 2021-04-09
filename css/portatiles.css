@@ -1,0 +1,57 @@
+h1#portatiles{
+    text-align: center;
+    color: red;
+}
+
+main{
+    padding: 25px;
+    background-color: black;
+}
+
+div#portatiles{
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+main #portatil h3 {
+    background-color: whitesmoke;
+}
+
+div#portatiles div.portatil {
+    border-radius: 10px;
+    width: 36%;
+    background-color:white;
+    margin-bottom: 10px;
+    padding: 20px;   
+    transition: 2s all;
+}
+div#portatiles div.portatil p.precio {
+    color: black;
+}
+div#portatiles div.portatil p.tipo{
+    color:black;
+}
+div#portatiles  div.portatil div.config{
+    background-color: red;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: 5px 5px whitesmoke;
+    display: none;
+    transition: 1s all;
+}
+
+div#portatiles div.portatil img{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    transition: 1s all;
+}
+
+div#portatiles div.portatil:hover div.config{
+    display: block;
+
+}

@@ -1,0 +1,57 @@
+h1#placas{
+    text-align: center;
+    color: red;
+}
+
+main{
+    padding: 25px;
+    background-color: black;
+}
+
+div#placas{
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+main #placas h3 {
+    background-color: white;
+}
+
+div#placas div.placa {
+    border-radius: 10px;
+    width: 36%;
+    background-color:white;
+    margin-bottom: 10px;
+    padding: 20px;   
+    transition: 2s all;
+}
+div#placas div.placa p.precio {
+    color: black;
+}
+div#placas div.placa p.tipo{
+    color:black;
+}
+div#placas div.placa div.config{
+    background-color: red;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: 5px 5px whitesmoke;
+    display: none;
+    transition: 1s all;
+}
+
+div#placas div.placa img{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    transition: 1s all;
+}
+
+div#placas div.placa:hover div.config{
+    display: block;
+
+}
